@@ -1,0 +1,52 @@
+@media screen and (max-width: 360px) {
+  body {
+    background-color: #464343cc;
+    background-image: url(src/img/background.preto.webp);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif, Helvetica, sans-serif;
+  }
+
+  header li,
+  a,
+  ul {
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 45px;
+    text-align: justify;
+  }
+
+  header a {
+    display: flex;
+    justify-content: center;
+    color: #fff8f8cc;
+    padding: 10px;
+  }
+
+  .menu li a:hover {
+    color: orange;
+  }
+
+  .menu {
+    margin-top: 100px;
+  }
+
+  h3 {
+    color: aliceblue;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .logo img {
+    width: 100%;
+    filter: drop-shadow(0 0 15px rgb(223, 221, 219));
+    text-align: center;
+    margin-top: 70px;
+  }
+}

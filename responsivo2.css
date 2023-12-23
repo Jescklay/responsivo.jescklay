@@ -1,0 +1,43 @@
+@media screen and (max-width: 360px) {
+  * {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif, Helvetica, sans-serif;
+  }
+
+  body {
+    background-color: #464343cc;
+    background-image: url(src/img/background.preto.webp);
+    background-size: cover;
+  }
+
+  img {
+    width: 95%;
+    margin-left: 8px;
+    margin-top: 7%;
+    border-radius: 15px;
+    z-index: -1;
+    filter: drop-shadow(0 0 4px rgb(223, 221, 219));
+  }
+
+  h1 {
+    width: 100%;
+    color: #f7f4f4cc;
+    margin-top: 15%;
+    font-size: 45px;
+  }
+
+  a {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 37%;
+    border-radius: 15px;
+    padding: 2%;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(245, 241, 241);
+  }
+
+  a:hover {
+    color: orange;
+  }
+}
